@@ -9,6 +9,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
         htmlFor="checked"
         aria-label={`archiveTask-${id}`}
         className="checkbox"
+        style={{ background: 'red' }}
       >
         <input
           type="checkbox"
